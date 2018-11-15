@@ -18,7 +18,7 @@ from unification_ros2_messages.msg import HecuUniToSP
 #import GPIOEmu as GPIO  
 
 # Real GPIO's
-#import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO
 
 class hecu_unidriver():
 
