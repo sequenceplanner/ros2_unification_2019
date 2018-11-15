@@ -7,7 +7,8 @@ setup(
     version='0.0.1',
     packages=[],
     py_modules=[
-        'src.hecu_unidriver'
+        'src.hecu_unidriver',
+        'src.recu_unidriver'
     ],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -32,7 +33,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'hecu_unidriver = src.hecu_unidriver:hecu_unidriver'
+            'hecu_unidriver = src.hecu_unidriver:hecu_unidriver',
+            'recu_unidriver = src.recu_unidriver:recu_unidriver'
         ],
     },
 )

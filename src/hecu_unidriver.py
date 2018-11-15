@@ -26,7 +26,7 @@ class hecu_unidriver():
 
         rclpy.init(args=args)
 
-        self.node = rclpy.create_node('extended_dummy')
+        self.node = rclpy.create_node('hecu_unidriver')
         
         self.lf_tool_home = False
         self.filter_tool_home = False
