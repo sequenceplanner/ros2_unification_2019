@@ -83,7 +83,7 @@ class recu_unidriver():
 
         self.pub = self.node.create_publisher(RecuUniToSP, '/unification_roscontrol/recu_uni_to_sp')
         self.sub = self.node.create_subscription(RecuSPToUni, '/unification_roscontrol/recu_sp_to_uni', self.spCallback)
-        timer_period = 1.0
+        timer_period = 0.01
         self.tmr = self.node.create_timer(timer_period, self.timer_callback)
 
         rclpy.spin(self.node)

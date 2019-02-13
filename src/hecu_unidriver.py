@@ -15,10 +15,10 @@ from std_msgs.msg import String
 from unification_ros2_messages.msg import HecuUniToSP
 
 # Emulator GPIO's
-#import GPIOEmu as GPIO  
+import GPIOEmu as GPIO  
 
 # Real GPIO's
-import RPi.GPIO as GPIO
+#import RPi.GPIO as GPIO
 
 class hecu_unidriver():
 

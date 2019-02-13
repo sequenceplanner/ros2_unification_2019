@@ -8,7 +8,8 @@ setup(
     packages=[],
     py_modules=[
         'src.hecu_unidriver',
-        'src.recu_unidriver'
+        'src.recu_unidriver',
+	'src.aecu_unidriver'
     ],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -34,7 +35,8 @@ setup(
     entry_points={
         'console_scripts': [
             'hecu_unidriver = src.hecu_unidriver:hecu_unidriver',
-            'recu_unidriver = src.recu_unidriver:recu_unidriver'
+            'recu_unidriver = src.recu_unidriver:recu_unidriver',
+	    'aecu_unidriver = src.aecu_unidriver:aecu_unidriver'
         ],
     },
 )
