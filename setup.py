@@ -9,7 +9,8 @@ setup(
     py_modules=[
         'src.hecu_unidriver',
         'src.recu_unidriver',
-	'src.aecu_unidriver'
+	'src.aecu_unidriver',
+	'src.gesture_handler'
     ],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -36,7 +37,8 @@ setup(
         'console_scripts': [
             'hecu_unidriver = src.hecu_unidriver:hecu_unidriver',
             'recu_unidriver = src.recu_unidriver:recu_unidriver',
-	    'aecu_unidriver = src.aecu_unidriver:aecu_unidriver'
+	    'aecu_unidriver = src.aecu_unidriver:aecu_unidriver',
+	    'gesture_handler = src.gesture_handler:gesture_handler'
         ],
     },
 )
