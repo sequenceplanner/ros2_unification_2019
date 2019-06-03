@@ -29,7 +29,7 @@ GESTURE_COMMAND_LIST = [["OPEN", "CLOSED", "COMMAND1"],
                         ["LASSO", "CLOSED", "COMMAND6"],
                         ["OPEN", "LASSO", "COMMAND7"],
                         ["CLOSED", "LASSO", "COMMAND8"],
-                        ["LASSO", "LASSO", "COMMAND9"]
+                        ["LASSO", "LASSO", "COMMAND9"]]
 
 
 class gesture_handler():
